@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { Section } from "../ui/Section";
 import { SectionHeading } from "../ui/SectionHeading";
@@ -9,7 +12,12 @@ export function BrandStory() {
     <Section id="story"  className="bg-sumi-900">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Text Content */}
-        <div>
+        <motion.div
+           initial={{ opacity: 0, x: -50 }}
+           whileInView={{ opacity: 1, x: 0 }}
+           transition={{ duration: 0.8 }}
+           viewport={{ once: true }}
+        >
           <SectionHeading title="品牌故事" subtitle="Brand Story" />
           <div className="space-y-6 text-sumi-200 leading-loose font-serif text-lg text-justify">
             <p>
@@ -27,11 +35,17 @@ export function BrandStory() {
               這不僅僅是一顿飯，而是一場視覺與味覺的饗宴。
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Image Composition */}
         <div className="relative h-[400px] md:h-[600px] w-full">
-           <div className="absolute top-0 right-0 w-3/4 h-3/4 overflow-hidden rounded-sm border border-sumi-800 shadow-2xl z-10">
+           <motion.div 
+             initial={{ opacity: 0, y: 50 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.8, delay: 0.2 }}
+             viewport={{ once: true }}
+             className="absolute top-0 right-0 w-3/4 h-3/4 overflow-hidden rounded-sm border border-sumi-800 shadow-2xl z-10"
+           >
             <Image
               src={ASSETS.food.meatPlatter}
               alt="A5 Wagyu"
@@ -39,8 +53,14 @@ export function BrandStory() {
               className="object-cover hover:scale-110 transition-transform duration-700"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-          </div>
-          <div className="absolute bottom-0 left-0 w-2/3 h-2/3 overflow-hidden rounded-sm border border-sumi-800 shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
+          </motion.div>
+          <motion.div 
+             initial={{ opacity: 0, scale: 0.8 }}
+             whileInView={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 0.8, delay: 0.4 }}
+             viewport={{ once: true }}
+             className="absolute bottom-0 left-0 w-2/3 h-2/3 overflow-hidden rounded-sm border border-sumi-800 shadow-2xl"
+           >
              <Image
               src={ASSETS.food.soupPour}
               alt="Pouring Sauce"
@@ -48,7 +68,7 @@ export function BrandStory() {
               className="object-cover"
               sizes="(max-width: 768px) 75vw, 33vw"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </Section>
