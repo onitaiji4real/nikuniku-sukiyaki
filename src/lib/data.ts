@@ -22,6 +22,12 @@ export const locations = [
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.639744743207!2d120.2001552!3d22.9902621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e768c859f139f%3A0xe510c498ed48a4e8!2z6buT5bKp5a625aKK5Zac54S25b2p6ZaA5bqXLeayl-mZouWcs-WPp-mZog!5e0!3m2!1szh-TW!2stw!4v1769871510168!5m2!1szh-TW!2stw",
     image: ASSETS.food.atmosphere,
     directionUrl: "https://maps.app.goo.gl/qRCPrvEDRY61U3yaA", 
+    geo: {
+      lat: 22.9902621,
+      lng: 120.2001552
+    },
+    city: "台南市",
+    district: "中西區"
   },
   {
     id: "humei",
@@ -32,6 +38,12 @@ export const locations = [
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14686.040180491873!2d120.19177196020508!3d23.0242207907572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7681f215f94d%3A0x6bda63de58a8a9a4!2z6buT5bKp5a625aKK5Zac54S25b2p6ZaA5bqXLea9l-ezgeWcs-WPp-mZog!5e0!3m2!1szh-TW!2stw!4v1769871587508!5m2!1szh-TW!2stw",
     image: ASSETS.food.tableSetup,
     directionUrl: "https://maps.app.goo.gl/Pejt3Gk9dip1qMiA6",
+    geo: {
+      lat: 23.0242208,
+      lng: 120.191772
+    },
+    city: "台南市",
+    district: "北區"
   },
   {
     id: "chiayi",
@@ -42,6 +54,12 @@ export const locations = [
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.4718501170757!2d120.4407577395066!3d23.47280211756209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e9500230ebc5b%3A0xccb83568cbe5fd93!2sNikuniku%E9%BB%91%E5%B2%A9%E5%AE%B6%E5%A3%BD%E5%96%9C%E7%87%92%E5%B0%88%E9%96%80%E5%BA%97%20%E5%98%89%E7%BE%A9%E5%9E%82%E6%A5%8A%E5%BA%97!5e0!3m2!1szh-TW!2stw!4v1769871631580!5m2!1szh-TW!2stw",
     image: ASSETS.food.grill, 
     directionUrl: "https://maps.app.goo.gl/z1TPCCU7zLwdHYHw7",
+    geo: {
+      lat: 23.4728021,
+      lng: 120.4407577
+    },
+    city: "嘉義市",
+    district: "西區"
   },
 ];
 
