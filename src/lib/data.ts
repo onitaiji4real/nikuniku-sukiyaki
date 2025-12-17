@@ -19,8 +19,9 @@ export const locations = [
     address: "台南市中西區民族路二段24號",
     note: "（安全帽店的巷子進來）",
     phone: "06-2236039",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.887654321!2d120.200000!3d22.990000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU5JzI0LjAiTiAxMjDCsDEyJzAwLjAiRQ!5e0!3m2!1sen!2stw!4v1600000000000",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.639744743207!2d120.2001552!3d22.9902621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e768c859f139f%3A0xe510c498ed48a4e8!2z6buT5bKp5a625aKK5Zac54S25b2p6ZaA5bqXLeayl-mZouWcs-WPp-mZog!5e0!3m2!1szh-TW!2stw!4v1769871510168!5m2!1szh-TW!2stw",
     image: ASSETS.food.atmosphere,
+    directionUrl: "https://maps.app.goo.gl/qRCPrvEDRY61U3yaA", 
   },
   {
     id: "humei",
@@ -28,8 +29,9 @@ export const locations = [
     address: "台南市北區中華北路一段100號",
     note: "",
     phone: "06-3588194",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.000000000!2d120.190000!3d23.010000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAwJzM2LjAiTiAxMjDCsDExJzI0LjAiRQ!5e0!3m2!1sen!2stw!4v1600000000000",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14686.040180491873!2d120.19177196020508!3d23.0242207907572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7681f215f94d%3A0x6bda63de58a8a9a4!2z6buT5bKp5a625aKK5Zac54S25b2p6ZaA5bqXLea9l-ezgeWcs-WPp-mZog!5e0!3m2!1szh-TW!2stw!4v1769871587508!5m2!1szh-TW!2stw",
     image: ASSETS.food.tableSetup,
+    directionUrl: "https://maps.app.goo.gl/Pejt3Gk9dip1qMiA6",
   },
   {
     id: "chiayi",
@@ -37,8 +39,9 @@ export const locations = [
     address: "嘉義市垂楊路557巷1號",
     note: "",
     phone: "05-2861107",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58288.75017192801!2d120.430000!3d23.475000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e9431ecbc5b8b%3A0x0!2zMjPCsDI4JzMwLjAiTiAxMjDCsDI1JzQ4LjAiRQ!5e0!3m2!1sen!2stw!4v1600000000000",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.4718501170757!2d120.4407577395066!3d23.47280211756209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e9500230ebc5b%3A0xccb83568cbe5fd93!2sNikuniku%E9%BB%91%E5%B2%A9%E5%AE%B6%E5%A3%BD%E5%96%9C%E7%87%92%E5%B0%88%E9%96%80%E5%BA%97%20%E5%98%89%E7%BE%A9%E5%9E%82%E6%A5%8A%E5%BA%97!5e0!3m2!1szh-TW!2stw!4v1769871631580!5m2!1szh-TW!2stw",
     image: ASSETS.food.grill, 
+    directionUrl: "https://maps.app.goo.gl/z1TPCCU7zLwdHYHw7",
   },
 ];
 

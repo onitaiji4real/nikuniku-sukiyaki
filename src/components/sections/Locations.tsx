@@ -70,7 +70,7 @@ export function Locations() {
            <Button 
              variant="primary" 
              className="w-fit mt-4"
-             onClick={() => window.open(activeLocation.mapUrl, '_blank')}
+             onClick={() => window.open(activeLocation.directionUrl, '_blank')}
            >
             Google Maps 導航
            </Button>
