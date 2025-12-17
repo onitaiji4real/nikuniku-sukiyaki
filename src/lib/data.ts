@@ -75,7 +75,7 @@ export const mediaCoverage = [
     summary: "台南必吃！正宗關西壽喜燒，限量和牛銷魂美味，主持人朵拉強力推薦。",
     source: "食尚玩家",
     link: "https://supertaste.tvbs.com.tw/review/357268", 
-    image: ASSETS.food.hero, 
+    image: "/images/media-coverage-1.jpg", 
   },
   {
     id: 2,
