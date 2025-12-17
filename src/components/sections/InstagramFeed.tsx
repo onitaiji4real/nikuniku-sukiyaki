@@ -35,6 +35,7 @@ export function InstagramFeed() {
               alt={`Instagram post ${index + 1}`} 
               fill 
               className="object-cover transition-transform duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100"
+              sizes="(max-width: 768px) 50vw, 16vw"
             />
           </a>
         ))}

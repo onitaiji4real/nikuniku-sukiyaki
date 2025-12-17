@@ -37,6 +37,7 @@ export function BrandStory() {
               alt="A5 Wagyu"
               fill
               className="object-cover hover:scale-110 transition-transform duration-700"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <div className="absolute bottom-0 left-0 w-2/3 h-2/3 overflow-hidden rounded-sm border border-sumi-800 shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
@@ -45,6 +46,7 @@ export function BrandStory() {
               alt="Pouring Sauce"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 75vw, 33vw"
             />
           </div>
         </div>

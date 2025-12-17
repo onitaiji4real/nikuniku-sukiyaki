@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { ASSETS } from "@/lib/assets";
 import { brandInfo } from "@/lib/data";
 
@@ -8,12 +9,15 @@ export function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('${ASSETS.food.hero}')`,
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+           src={ASSETS.food.hero}
+           alt="Mouth-watering Sukiyaki Beef"
+           fill
+           priority
+           className="object-cover"
+           sizes="100vw"
+        />
         <div className="absolute inset-0 bg-black/40 bg-gradient-to-b from-black/60 via-transparent to-sumi-950" />
       </div>
 
