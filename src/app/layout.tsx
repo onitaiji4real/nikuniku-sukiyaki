@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/media-coverage-1.jpg", // Using an existing high-quality image as OG image for now
+        url: "/images/og-image.jpg", // Authenticated A5 Wagyu Meat Platter
         width: 1200,
         height: 630,
         alt: "Nikuniku 黒岩家壽喜燒 A5和牛",

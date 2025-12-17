@@ -13,7 +13,7 @@ export function StructuredData() {
        // Using absolute URL for images. In a real scenario, each location might have its own cover.
        // Fallback to a main hero image if specific one not available easily as absolute URL.
        // Assuming we have this file.
-       `${SITE_URL}/images/media-coverage-1.jpg`, 
+       `${SITE_URL}/images/og-image.jpg`, 
     ],
     "description": brandInfo.description,
     "telephone": loc.phone,
